@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="expires" content="1970-01-01 00:00:00" />
+	<title>Script for catching gesture</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	<!-- data-main attribute tells require.js to load
+		 scripts/index.js after require.js loads. -->
+	<script data-main="js/index" src="js/require.js"></script>
+</head>
+
+<body>
+	<h2 >unit I</h2>
+	<div id="" class="remote_control">
+		<div class="row">
+			<div class="info">Front Light</div>
+			<div class="on_button" id="onButton0" onclick="remoteControl.onButtonWasPushed(0);">ON</div>
+			<div class="off_button" id="offButton0" onclick="remoteControl.offButtonWasPushed(0);">OFF</div>
+		</div>		
+		<div class="row">
+			<div class="info">Backyard Light</div>
+			<div class="on_button" id="onButton1" onclick="remoteControl.onButtonWasPushed(1);">ON</div>
+			<div class="off_button" id="offButton1" onclick="remoteControl.offButtonWasPushed(1);">OFF</div>
+		</div>	
+		<div class="row">
+			<div class="info">Living Room Ceiling Fan [high]</div>
+			<div class="on_button" id="onButton2" onclick="remoteControl.onButtonWasPushed(2);">ON</div>
+			<div class="off_button" id="offButton2" onclick="remoteControl.offButtonWasPushed(2);">OFF</div>
+		</div>	
+		<div class="row">
+			<div class="info">Living Room Ceiling Fan [medium]</div>
+			<div class="on_button" id="onButton3" onclick="remoteControl.onButtonWasPushed(3);">ON</div>
+			<div class="off_button" id="offButton3" onclick="remoteControl.offButtonWasPushed(3);">OFF</div>
+		</div>	
+		<div class="row">
+			<div class="info">Garage Door</div>
+			<div class="on_button"  id="onButton4" onclick="remoteControl.onButtonWasPushed(4);">ON</div>
+			<div class="off_button" id="offButton4" onclick="remoteControl.offButtonWasPushed(4);">OFF</div>
+		</div>	
+		<div class="row">
+			<div class="info">[empty]</div>
+			<div class="on_button" id="onButton5" onclick="remoteControl.onButtonWasPushed(5);">ON</div>
+			<div class="off_button" id="offButton5" onclick="remoteControl.offButtonWasPushed(5);">OFF</div>
+		</div>	
+		<div class="row">
+			<div class="info">[empty]</div>
+			<div class="on_button" id="onButton6" onclick="remoteControl.onButtonWasPushed(6);">ON</div>
+			<div class="off_button" id="offButton6" onclick="remoteControl.offButtonWasPushed(6);">OFF</div>
+		</div>			
+		<div class="row">
+			<div class="info">Undo</div>
+			<div class="off_button" id="undoButton" onclick="remoteControl.undoButtonWasPushed();">Undo</div>
+		</div>	
+
+	</div>
+</body>
+
+</html>

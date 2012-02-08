@@ -1,0 +1,25 @@
+ok this is for illustrating command pattern use in javascript
+
+the ide of this project is to build a remote control that control some of the component of the house.
+
+So there are these objects:
+1. remote control
+	which is contain list of buttons, each row is contain two button, on button and off button
+	the last row contain one button, which is "undo" button
+2. the house components:
+	- front light
+		on 
+		off
+	- backyard light
+		on
+		off
+	- garage door
+		slideUp
+		slideDown
+	- ceiling fan
+		off
+		slow
+		medium
+		high
+	
+

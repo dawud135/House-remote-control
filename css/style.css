@@ -1,0 +1,68 @@
+.remote_control {
+	background-color: #000;
+	padding: 1em 1em 1em 1em;
+}
+
+.remote_control .row {
+	background-color: #f3f3f3;
+	margin: 0.5em 0 0.5em 0;
+}
+
+.remote_control .row .info {
+	background-color: #f3f3f3;
+	display: inline;
+	width: 35%;
+}
+.remote_control .row .on_button {
+	background-color: #00ff00;
+	font-size:0.7em;
+	display: inline;
+	width: 30%;
+
+	/*Rounded Corners*/
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	border-radius: 0.3em;
+
+	/*Transition*/
+	-webkit-transition: All 0.5s ease 0s;
+	-moz-transition: All 0.5s ease 0s;
+	-o-transition: All 0.5s ease 0s;
+	-ms-transition: All 0.5s ease 0s;
+	transition: All 0.5s ease 0s;
+
+}
+
+.remote_control .row .on_button:hover {
+	background-color: #00aa00;
+	font-weight: bold;
+	display: inline;
+}
+
+.remote_control .row .off_button {
+	background-color: #ff0000;
+	font-size:0.7em;
+	display: inline;
+	width: 30%;
+
+	/*Rounded Corners*/
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	border-radius: 0.3em;
+
+	/*Transition*/
+	-webkit-transition: All 0.5s ease 0s;
+	-moz-transition: All 0.5s ease 0s;
+	-o-transition: All 0.5s ease 0s;
+	-ms-transition: All 0.5s ease 0s;
+	transition: All 0.5s ease 0s;
+
+}
+
+.remote_control .row .off_button:hover {
+	background-color: #aa0000;
+	font-weight: bold;
+	display: inline;
+}
